@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS2 Tactical Hub | Ondřej Votruba</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Orbitron:wght@400;700&family=Rajdhani:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-content">
+            <a href="#" class="logo">CS2 <span>TACTICAL HUB</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">O Hře</a></li>
+                <li><a href="#economy">Ekonomika</a></li>
+                <li><a href="#arsenal">Arzenál</a></li>
+                <li><a href="#maps">Mapy</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero">
+        <div class="hero-content">
+            <h1>Změna Hry Začíná Zde</h1>
+            <p>Vítejte v interaktivním průvodci světem Counter-Strike 2. Poznejte novou mechaniku, zbraně a mapy.</p>
+            <a href="#arsenal" class="btn">Prozkoumat Arzenál</a>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <!-- Dynamite Content Section: About -->
+        <section id="about">
+            <h2 class="section-title">O Hře CS2</h2>
+            <div id="about-content" class="card">
+                <!-- Content loaded via AJAX -->
+                <p>Načítání informací...</p>
+            </div>
+        </section>
+
+        <!-- Dynamic Content Section: Economy -->
+        <section id="economy">
+            <h2 class="section-title">Ekonomika</h2>
+            <div id="economy-content" class="card">
+                <!-- Content loaded via AJAX -->
+                <p>Načítání informací...</p>
+            </div>
+        </section>
+
+        <!-- Arsenal Section -->
+        <section id="arsenal">
+            <h2 class="section-title">Zbrojnice</h2>
+
+            <div class="filters" style="margin-bottom: 2rem; text-align: center;">
+                <button class="btn filter-btn active" data-filter="all">Vše</button>
+                <button class="btn filter-btn" data-filter="Rifle">Pušky</button>
+                <button class="btn filter-btn" data-filter="Sniper">Sniper</button>
+                <button class="btn filter-btn" data-filter="Pistol">Pistole</button>
+                <button class="btn filter-btn" data-filter="SMG">SMG</button>
+                <button class="btn filter-btn" data-filter="Equipment">Vybavení</button>
+            </div>
+
+            <div id="weapon-grid" class="weapon-grid">
+                <!-- Weapons loaded via AJAX -->
+                <p>Načítání zbraní...</p>
+            </div>
+        </section>
+
+        <!-- Map Pool Section -->
+        <section id="maps">
+            <h2 class="section-title">Aktivní Map Pool</h2>
+            <div id="map-grid" class="weapon-grid">
+                <!-- Maps loaded via AJAX -->
+                <p>Načítání map...</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2 class="section-title">Nahlásit Chybu</h2>
+            <div class="card" style="max-width: 600px; margin: 0 auto;">
+                <form id="contact-form" action="contact.php" method="POST">
+                    <div class="form-group">
+                        <label for="name">Jméno / Nickname</label>
+                        <input type="text" id="name" name="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Zpráva</label>
+                        <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                    </div>
+                    <div style="text-align: center;">
+                        <button type="submit" class="btn">Odeslat Zprávu</button>
+                    </div>
+                    <div id="form-response" style="margin-top: 1rem; text-align: center;"></div>
+                </form>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Ondřej Votruba | CS2 Tactical Hub</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

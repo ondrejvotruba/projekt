@@ -1,0 +1,57 @@
+{
+    "about": {
+        "title": "O hře CS2",
+        "content": "Counter-Strike 2 představuje největší technický skok v historii série. Hra je postavena na enginu Source 2, který přináší realistické fyzikální vykreslování, vylepšené síťové připojení a nové nástroje pro tvůrce komunitního obsahu. Mezi klíčové novinky patří dynamické dýmovnice, které reagují na střelbu a exploze, a 'sub-tick' systém pro bezprecedentní přesnost serveru."
+    },
+    "economy": {
+        "title": "Herní Ekonomika",
+        "content": "Ekonomika je klíčovým strategickým prvkem CS2. Hráči získávají peníze za eliminace, splnění cílů mapy (položení/zneškodnění bomby) a za ukončení kola. 'Loss bonus' se zvyšuje s každým prohraným kolem v řadě (od 1400$ do 3400$). Správný management financí (eco rounds, force buys) často rozhoduje o výsledku celého zápasu."
+    },
+    "maps": [
+        {
+            "name": "Mirage",
+            "desc": "Klasická tří-liniová mapa, populární pro svou taktickou vyváženost.",
+            "image": "assets/images/mirage.png"
+        },
+        {
+            "name": "Inferno",
+            "desc": "Mapa známá úzkými průchody a strategickým bojem o 'banán'. V CS2 prošla výrazným vizuálním upgradem.",
+            "image": "assets/images/inferno.png"
+        },
+        {
+            "name": "Nuke",
+            "desc": "Vertikálně orientovaná mapa vyžadující skvělou týmovou komunikaci, odehrávající se v jaderné elektrárně.",
+            "image": "assets/images/nuke.png"
+        },
+        {
+            "name": "Overpass",
+            "desc": "Mapa s unikátním designem, odehrávající se v parku nad kanálem v Berlíně. Otevřené prostory i těsné chodby.",
+            "image": "assets/images/overpass.png"
+        },
+        {
+            "name": "Ancient",
+            "desc": "Zelená mapa zasazená do ruin starověké civilizace. Důraz na mid control a vodní plochy.",
+            "image": "assets/images/ancient.png"
+        },
+        {
+            "name": "Anubis",
+            "desc": "Egyptská tématika, komplexní layout s mnoha cestami a vertikalitou u vodního kanálu.",
+            "image": "assets/images/anubis.png"
+        },
+        {
+            "name": "Dust II",
+            "desc": "Nejikoničtější mapa v historii FPS her. Jednoduchý layout, nekonečné taktické možnosti.",
+            "image": "assets/images/dust2.png"
+        },
+        {
+            "name": "Train",
+            "desc": "Průmyslová mapa, která se vrací do CS2 s komplet novým vizuálem. Vlaky, žebříky a dlouhé výhledy.",
+            "image": "assets/images/train.png"
+        },
+        {
+            "name": "Vertigo",
+            "desc": "Boj na vrcholu mrakodrapu ve výstavbě. Nebezpečí pádu a vertikální hratelnost.",
+            "image": "assets/images/vertigo.png"
+        }
+    ]
+}
